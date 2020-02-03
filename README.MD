@@ -97,13 +97,18 @@ Vamos fazer algumas alterações no nosso projeto dentro dessa nova branch:
 * Commite esse arquivo com a mensagem "criação de arquivo main.css"
 
 ```
-touch main.css 
-git add main.css
-git commit -m "criação de arquivo main.css"
+$ touch main.css 
+$ git add main.css
+$ git commit -m "criação de arquivo main.css"
+[implementacao-css f56f97a] criando arquivo main.css
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 main.css
 ```
 Após isso iremos fazer outro commit para adicionar uma regra css simples a esse arquivo. Apenas entre no arquivo criado e adicione alguma regra a tag body:
 ```css
-./main.css
+/*
+   Arquivo: ./main.css
+*/
 
 body{
     background-color:mediumpurple;
@@ -112,8 +117,10 @@ body{
 ```
 Salve o arquivo arquivo alterado com os mesmos comandos feitos anteriormente e faça mais um commit:
 ```
-git add main.css
-git commit -m "adicionando regras para o main.css"
+$ git add main.css
+$ git commit -m "adicionando regras para o main.css"
+[implementacao-css ab4a625] adicionando regras para o main.css
+ 1 file changed, 5 insertions(+)
 ```
 
 Podemos ver na imagem abaixo que há duas linhas de tempo diferentes que não se conflitaram (até momento) e podem ser alteradas ninguém atropelar o código de nenhum dos outros desenvolvedores do projeto, evitando conflitos e sempre mantendo tudo que é feito documentado dentro do repositório.
@@ -121,7 +128,34 @@ Podemos ver na imagem abaixo que há duas linhas de tempo diferentes que não se
 ![imagem listando as branches](images/branches2.png) 
 
 ### 4.4 - Merge
-Simplificado: *Fusão de permanente duas branches* <br><br>
+Simplificado: *Fusão de duas branches* <br><br>
+Quando algum desenvolvedor falar de **merge**, quer dizer que houve uma fusão ou junção de códigos em uma única branch. Tá, mas como assim?<br>
+Vamos continuar na nossa situação hipotética dos commits acima, já que temos duas branches nesse repositório. Iremos criar um merge da branch **implementacao-css** para a branch **master**. Em outras palavras, vamos juntar todas as alterações feitas na branch **implementacao-css** dentro da branch **master**, mantendo a nossa master com todo o conteúdo.
+ 
+```
+$ git checkout master
+$ git merge implementacao-css
+Updating 9b61048..ab4a625
+Fast-forward
+ main.css | 5 +++++
+ 1 file changed, 5 insertions(+)
+ create mode 100644 main.css
+```
+
+![imagem listando as branches](images/merge1.png)
+
+Podemos ver que a master agora possui as funcionalidades da implementação-css sem precisar mexer em nada relacionado a ela, e em questão de organização você sabe onde e quando foi feito as alterações.
+
+
+
+
+
+
+
+
+
+
+
 
 ## x. Materiais utilizados
 
