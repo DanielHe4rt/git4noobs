@@ -11,11 +11,12 @@ A ideia é ensinar para os usuários iniciantes que o Git não é nenhum "monstr
 Bom, só precisamos que você tenha o Git instalado na sua máquina. Aqui vai como você pode baixar:
 
 
-- ###2.1 Linux (Base Debian)
+- ### 2.1 Linux (Base Debian)
+    Apenas execute o comando abaixo no seu terminal e a magica vai estar feita: 
     ```
     sudo apt install git 
     ```
-- ###2.2 Windows
+- ### 2.2 Windows
     Vá até o site [Git SCM](https://git-scm.com/downloads) e faça download da versão mais atualizada e siga os passos do instalador.<br>
     Ao terminar o download você terá o app Git Bash instalado no seu Windows pronto para uso.
 
@@ -57,7 +58,7 @@ echo "Hello Rocket Devs" > index.html
 git add index.html
 git commit -m "inserção de index.html"
 ```
-<img src="https://placehold.it/1920x200"><br>
+![x](./images/commit1.png)
 
 Em um certo ponto, você percebe que cometeu algum erro ao subir essa alteração no seu projeto. Agora você tem duas opções: reverter ou sobrescrever.<br>
 Nesse caso, eu irei sobrescrever a alteração para manter o registro anterior no nosso repositório com os passos abaixo:
@@ -67,18 +68,60 @@ Nesse caso, eu irei sobrescrever a alteração para manter o registro anterior n
 ```
 echo "Hello He4rt Devs" > index.html 
 git add index.html
-git commit -m "correção de index.html"
+git commit -m "alteração de index.html"
 ```
-<img src="https://placehold.it/1920x200"><br>
+![x](./images/commit2.png)
 Após fazer a alteração, podemos ver que foi adicionado outro registro em nosso repositório, uma nova entrada na qual está marcada as alterações mais recentes e com os registros anteriores guardados e documentados igualmente.
 
 Um commit significa a adição/alteração/remoção de um ou mais arquivos dentro do seu repositório.
 
-### 4.2 - Branch
+### 4.3 - Branch
 Simplificado: *Universo Paralelo* <br><br>
-Podemos dizer que a branch é um universo ou uma realidade alternativa onde em algum ponto irá se juntar com a realidade principal. Achou esse exemplo estranho? Então deixa eu te mostrar uns exemplos.
+Podemos dizer que a branch é um universo ou uma realidade alternativa onde em algum ponto irá se juntar com a realidade principal. Achou esse exemplo estranho? Então deixa eu te mostrar uns exemplos.<br><br>
+Pense em um cenário onde seu time encontra um problema que precisa ser resolvido, porém nem sempre há apenas uma única solução para finalizar essa tarefa, certo? É ai que a branch entra para ajudar nessa organização entre os devs.<br>
+Continuando nesse cenário hipotético, os desenvolvedores irão criar uma nova vertente do código partindo da branch **master** (branch princial gerada a partir do primeiro commit), assim criando a branch solucao-a.
+```
+$ git checkout -b implementacao-css
+Switched to a new branch 'implementacao-css'
 
+$ git branch
+  master
+* implementacao-css
+``` 
+![x](./images/branches1.png)
 
+Podemos ver que agora estamos em um outro universo diferente do principal (master) e toda e qualquer alteração feita nessa nova branch não afetará nenhuma outra dentro do projeto.<br><br>
+Tá, mas o que eu faço com essa branch? A ideia é você ter liberdade para criar coisas novas sem alterar onde está tudo funcionando (master).<br>
+Vamos fazer algumas alterações no nosso projeto dentro dessa nova branch:
+* Crie um novo arquivo na raiz do projeto chamado main.css
+* Commite esse arquivo com a mensagem "criação de arquivo main.css"
+
+```
+touch main.css 
+git add main.css
+git commit -m "criação de arquivo main.css"
+```
+Após isso iremos fazer outro commit para adicionar uma regra css simples a esse arquivo. Apenas entre no arquivo criado e adicione alguma regra a tag body:
+```css
+./main.css
+
+body{
+    background-color:mediumpurple;
+    color:white;
+}
+```
+Salve o arquivo arquivo alterado com os mesmos comandos feitos anteriormente e faça mais um commit:
+```
+git add main.css
+git commit -m "adicionando regras para o main.css"
+```
+
+Podemos ver na imagem abaixo que há duas linhas de tempo diferentes que não se conflitaram (até momento) e podem ser alteradas ninguém atropelar o código de nenhum dos outros desenvolvedores do projeto, evitando conflitos e sempre mantendo tudo que é feito documentado dentro do repositório.
+
+![imagem listando as branches](images/branches2.png) 
+
+### 4.4 - Merge
+Simplificado: *Fusão de permanente duas branches* <br><br>
 
 ## x. Materiais utilizados
 
