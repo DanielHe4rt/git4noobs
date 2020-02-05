@@ -28,14 +28,14 @@ Git é um sistema de controle de versão de arquivos. Através deles podemos des
 ### 3.2 Segundo Exemplo
 Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo. Cada diretório de trabalho do Git é um repositório com um histórico completo e habilidade total de acompanhamento das revisões, não dependente de acesso a uma rede ou a um servidor central. 
 
-## 4. Glosário
+## 4. Conceitos e Comandos
 
 ### 4.1 - Repositório
 Simplificado: *Pasta do Projeto* <br><br>
 Isso ai mesmo que você está lendo. Repositório é a pasta raiz do seu projeto e não é nenhum tipo de item mágico lvl 99 que você só consegue depois de zerar algum jogo.<br><br>
 Crie uma pasta vazia e digite o comando **git init**:
 
-```shell script
+```
 $ mkdir git4noobs
 $ cd git4noobs
 $ git init
@@ -146,16 +146,70 @@ Fast-forward
 
 Podemos ver que a master agora possui as funcionalidades da implementação-css sem precisar mexer em nada relacionado a ela, e em questão de organização você sabe onde e quando foi feito as alterações.
 
+### 4.5 - Status
 
+Um comando simples para saber qual branch vocẽ se encontra, quais arquivos foram alterados e também quais arquivos já estão prontos para serem commitados, é o **"git status"**. Apenas execute o mesmo depois de fazer qualquer alteração e você irá ver algum retorno parecido com o exemplo abaixo:
 
+```
+$ git status
+No ramo master
+Mudanças a serem submetidas:
+  (use "git reset HEAD <file>..." to unstage)
 
+	modified:   main.css
 
+Arquivos não monitorados:
+  (utilize "git add <arquivo>..." para incluir o que será submetido)
 
+	index.html
+```
 
+Esse comando vai te dar uma visão geral de tudo que está acontecendo no repositório que vá afetar algo ou não no seu próximo commit.
 
+### 4.6 - Diff
 
+Passamos por todo esse processo de criar commits, entender branches e creio que tenha ficado bem claro que há um fluxo a ser seguido. Mas como vamos saber o que exatamente foi alterado nos arquivos?<br>
+O comando **git diff nomearquivo.ext** consegue resolver esse problema e para entendermos melhor, iremos fazer algumas alterações no nosso projeto:
+* Altere o arquivo **main.css** adicionando e editando as linhas descritas abaixo;
+* Utilize o comando **"git diff main.css"** para ver as alterações criadas.
 
+```css
+/*
+   Arquivo: ./main.css
+*/
 
+body{
+    background-color:mediumpurple;
+    color:red;
+}
+
+p{
+    color:blue;
+}
+```
+```
+$ git diff main.css
+diff --git a/main.css b/main.css
+index 85d348e..2cfe522 100644
+--- a/main.css
++++ b/main.css
+@@ -1,4 +1,8 @@
+ body{
+     background-color:mediumpurple;
+-    color:white;
++    color:red;
++}
++
++p{
++    color:blue;
+ }
+```
+Agora vamos para uma breve interpretação do retorno acima:
+* Ele está comparando com o último commit feito no mesmo arquivo;
+* O sinal "+" significa tudo que foi ADICIONDO ao documento;
+* O sinal "-" significa tudo que foi REMOVIDO do document.
+
+Uma coisa interessante de saber é que se você adicionar o arquivo com o **"git add"** e tentar usar o **"git diff"** no mesmo arquivo, você não verá as alterações pois elas já estão prontas para serem commitadas.
 
 ## x. Materiais utilizados
 
