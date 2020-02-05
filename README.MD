@@ -211,6 +211,30 @@ Agora vamos para uma breve interpretação do retorno acima:
 
 Uma coisa interessante de saber é que se você adicionar o arquivo com o **"git add"** e tentar usar o **"git diff"** no mesmo arquivo, você não verá as alterações pois elas já estão prontas para serem commitadas.
 
+
+## 5 - Gitflow
+
+### 5.1 O que é Git Flow
+Gitflow ou também conhecido como Git Workflow é uma ideia abstrata de como organizar suas branches para ter um controle maior sobre o que é feito dentro do seu projeto.<br>
+Pense o seguinte cenário: sua empresa atribuiu duas novas funcionalidades para o seu time fazer e você terá que trabalhar em algumas tarefas. Dentro desse projeto, não é permitido um iniciante mexer em nada relacionado a branch Master (principal).
+
+### 5.2 Estrutura de um Git Flow
+
+
+### 5.3 Exemplos de GitFlow
+#### Funcionalidades e Tarefas
+1. CRUD de Clientes
+    1. Cadastro de clientes
+    1. Edição de Clientes
+    1. Remoção de Clientes
+2. Painel de Controle (Dashboard)
+    1. Criação de template
+    1. Integração de API's
+    
+Temos as tarefas e funcionalidades acima listadas, agora vamos entender como elas ficariam quando tiverem sido "finalizadas" seguindo o nosso GitFlow.
+
+![imagem listando as branches](./images/gitflow-example1.png)
+
 ## x. Materiais utilizados
 
 * [Wikipedia](https://pt.wikipedia.org/wiki/Git) - Git
