@@ -222,6 +222,8 @@ Pense o seguinte cenário: sua empresa atribuiu duas novas funcionalidades para 
 
 
 ### 5.3 Exemplos de GitFlow
+
+
 #### Funcionalidades e Tarefas
 1. CRUD de Clientes
     1. Cadastro de clientes
