@@ -351,10 +351,7 @@ O exemplo do GitFlow dado acima é apenas um de muitos existentes. Logo, você t
 ## Autores
 
 - **Daniel Reis (danielhe4rt)** - _Back-end Developer && He4rt Developers Leader_ - [Portfólio](https://danielheart.dev) - [Twitter](https://twitter.com/danielhe4rt)
-- **Anna Campelo (Annerland)** - _Front-end Developer && Melhor pessoa_ - [Portfólio](https://github.com/AnnaCampelo) - [Twitter](https://twitter.com/danielhe4rt)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Este projeto está livre para ser utilizado e apresentado, apenas peço que deixe os créditos.
