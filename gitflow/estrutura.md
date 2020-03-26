@@ -1,8 +1,3 @@
----
-id: git-estrutura-gitflow
-title: Estrutura de um Git Flow
----
-
 Quando você começa a estudar um tipo de GitFlow, a primeira coisa a se entender são as responsabilidades de cada tipo de branch.
 Entenda o Gitflow como uma hierarquia a ser seguida, onde você não pode pular nenhum processo ou irá gerar algum tipo de conflito em certo ponto. <br>
 

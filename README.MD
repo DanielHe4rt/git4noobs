@@ -1,14 +1,5 @@
----
-title: Introdução
-author: Frank Li
-authorURL: http://twitter.com/franchementli
-authorFBID: 100002976521003
-custom_edit_url: https://github.com/facebook/docusaurus/edit/master/docs/api-doc-markdown.md
-id: introducao
----
-
 <h1 align="center">
-  <img src="../assets/images/git-para-iniciantes/git.svg" alt="Git" width="120px" />
+  <img src="./images/git.svg" alt="Git" width="120px" />
 </h1>
 
 <p align="center">A ideia é ensinar para os usuários iniciantes que o Git não é nenhum "monstro" de se aprender e também ensinar como usar num ambiente onde há mais de um desenvolvedor atuando no projeto sem desorganizar ou perder algum traço de código no processo.</p>
