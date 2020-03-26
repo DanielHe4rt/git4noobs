@@ -1,3 +1,5 @@
+# Diff
+
 Passamos por todo esse processo de criar commits, entender branches e creio que tenha ficado bem claro que há um fluxo a ser seguido. Mas como vamos saber o que exatamente foi alterado nos arquivos?<br>
 O comando **git diff nomearquivo.ext** consegue resolver esse problema e para entendermos melhor, iremos fazer algumas alterações no nosso projeto:
 

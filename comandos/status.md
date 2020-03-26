@@ -1,3 +1,5 @@
+# Status
+
 Um comando simples para saber qual branch vocẽ se encontra, quais arquivos foram alterados e também quais arquivos já estão prontos para serem commitados, é o **"git status"**. Apenas execute o mesmo depois de fazer qualquer alteração e você irá ver algum retorno parecido com o exemplo abaixo:
 
 ```

@@ -8,8 +8,8 @@
 
 ### Pré-requisitos
 
-2. [Windows](/pre-requisitos/windows.md)
-3. [Licenças Open Source](pre-requisitos/linux.md)
+1. [Windows](/pre-requisitos/windows.md)
+2. [Linux](pre-requisitos/linux.md)
 
 ### O que é git ?
 
