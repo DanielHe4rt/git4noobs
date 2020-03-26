@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./images/git.svg" alt="Git" width="120px" />
+  <img src="/images//git.svg" alt="Git" width="120px" />
 </h1>
 
 <p align="center">A ideia é ensinar para os usuários iniciantes que o Git não é nenhum "monstro" de se aprender e também ensinar como usar num ambiente onde há mais de um desenvolvedor atuando no projeto sem desorganizar ou perder algum traço de código no processo.</p>
@@ -8,29 +8,29 @@
 
 ### Pré-requisitos
 
-1. [Windows](/pre-requisitos/windows.md)
-2. [Linux](pre-requisitos/linux.md)
+1. [Windows](/1-pre-requisitos/windows.md)
+2. [Linux](/1-pre-requisitos/linux.md)
 
 ### O que é git ?
 
-1. [Primeiro Exemplo](/o-que-e-git/primeiro-exemplo.md)
-2. [Segundo Exemplo](/o-que-e-git/segundo-exemplo.md)
+1. [Primeiro Exemplo](/2-o-que-e-git/primeiro-exemplo.md)
+2. [Segundo Exemplo](/2-o-que-e-git/segundo-exemplo.md)
 
 ### Comandos e Conceitos
 
-1.  [Repositório](/comandos/repositorio.md)
-2.  [Commit](/comandos/commit.md)
-3.  [Branch](/comandos/branch.md)
-4.  [Merge](/comandos/merge.md)
-5.  [Status](/comandos/status.md)
-6.  [Diff](/comandos/diff.md)
+1.  [Repositório](/3-comandos/repositorio.md)
+2.  [Commit](/3-comandos/commit.md)
+3.  [Branch](/3-comandos/branch.md)
+4.  [Merge](/3-comandos/merge.md)
+5.  [Status](/3-comandos/status.md)
+6.  [Diff](/3-comandos/diff.md)
 
 ### GitFlow
 
-1. [O que é Git Flow](/gitflow/o-que-e-gitflow.md)
-2. [Estrutura de um Git Flow](/gitflow/estrutura.md)
-3. [Releases](/gitflow/releases.md)
-4. [Exemplos de GitFlow](/gitflow/exemplos.md)
+1. [O que é Git Flow](/4-gitflow/o-que-e-gitflow.md)
+2. [Estrutura de um Git Flow](/4-gitflow/estrutura.md)
+3. [Releases](/4-gitflow/releases.md)
+4. [Exemplos de GitFlow](/4-gitflow/exemplos.md)
 
 ### Conclusão
 

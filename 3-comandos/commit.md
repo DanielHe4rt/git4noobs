@@ -16,7 +16,7 @@ git add index.html
 git commit -m "inserção de index.html"
 ```
 
-![x](assets/images/git-para-iniciantes/commit1.png)
+![x](/images/commit1.png)
 
 Em um certo ponto, você percebe que cometeu algum erro ao subir essa alteração no seu projeto. Agora você tem duas opções: reverter ou sobrescrever.<br>
 Nesse caso, iremos sobrescrever a alteração para manter o registro anterior no nosso repositório com os passos abaixo:
@@ -31,7 +31,7 @@ git add index.html
 git commit -m "alteração de index.html"
 ```
 
-![x](assets/images/git-para-iniciantes/commit2.png)
+![x](/images/commit2.png)
 Após fazer a alteração, podemos ver que foi adicionado outro registro em nosso repositório, uma nova entrada na qual está marcada as alterações mais recentes e com os registros anteriores guardados e documentados igualmente.
 
 Um commit significa a adição/alteração/remoção de um ou mais arquivos dentro do seu repositório.

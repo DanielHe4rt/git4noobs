@@ -17,7 +17,7 @@ $ git branch
 * implementacao-css
 ```
 
-![x](assets/images/git-para-iniciantes/branches1.png)
+![x](/images/branches1.png)
 
 Podemos ver que agora estamos em um outro universo diferente do principal (master) e toda e qualquer alteração feita nessa nova branch não afetará nenhuma outra dentro do projeto.<br><br>
 Tá, mas o que eu faço com essa branch? A ideia é você ter liberdade para criar coisas novas sem alterar onde está tudo funcionando (master).<br>
@@ -58,4 +58,4 @@ $ git commit -m "adicionando regras para o main.css"
 
 Podemos ver na imagem abaixo que há duas linhas de tempo diferentes que não se conflitaram (até momento) e podem ser alteradas ninguém atropelar o código de nenhum dos outros desenvolvedores do projeto, evitando conflitos e sempre mantendo tudo que é feito documentado dentro do repositório.
 
-![imagem listando as branches](assets/images/git-para-iniciantes/branches2.png)
+![imagem listando as branches](/images/branches2.png)

@@ -15,4 +15,4 @@ Com um exemplo prático iremos montar o Gitflow com as tarefas abaixo num ambien
 
 Temos as tarefas e funcionalidades acima listadas, agora vamos entender como elas ficariam quando tiverem sido "finalizadas" seguindo o nosso GitFlow.
 
-![imagem listando as branches](assets/images/git-para-iniciantes/gitflow-example1.png)
+![imagem listando as branches](/images/gitflow-example1.png)
