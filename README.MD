@@ -31,6 +31,7 @@
 2. [Estrutura de um Git Flow](/4-gitflow/estrutura.md)
 3. [Releases](/4-gitflow/releases.md)
 4. [Exemplos de GitFlow](/4-gitflow/exemplos.md)
+5. [Padrão de Commits](/4-gitflow/padrao-commit.md)
 
 ### Conclusão
 
