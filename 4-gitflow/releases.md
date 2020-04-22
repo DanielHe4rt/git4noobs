@@ -4,7 +4,7 @@ O que é uma release? Release é o compilado de alterações feitas no sistema o
 
 - O primeiro digito é para o breaking change release, mais conhecido como que altera toda estrutura do projeto.
 - O segundo digito será para releases de projeto (compilado de novas features)
-- O terceiro digito será para correlão de bugfixes e alterações não agendadas referentes a release.
+- O terceiro digito será para correção de bugfixes e alterações não agendadas referentes a release.
 
 Quando é lançado um sistema pela primeira vez, é dado como versão 1.0.0 e a cada deploy de novas features é incrementado o segundo digito. Exemplo fictício abaixo:
 

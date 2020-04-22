@@ -47,7 +47,7 @@ body {
 }
 ```
 
-Salve o arquivo arquivo alterado com os mesmos comandos feitos anteriormente e faça mais um commit:
+Salve o arquivo alterado com os mesmos comandos feitos anteriormente e faça mais um commit:
 
 ```
 $ git add main.css
@@ -56,6 +56,6 @@ $ git commit -m "adicionando regras para o main.css"
  1 file changed, 5 insertions(+)
 ```
 
-Podemos ver na imagem abaixo que há duas linhas de tempo diferentes que não se conflitaram (até momento) e podem ser alteradas ninguém atropelar o código de nenhum dos outros desenvolvedores do projeto, evitando conflitos e sempre mantendo tudo que é feito documentado dentro do repositório.
+Podemos ver na imagem abaixo que há duas linhas de tempo diferentes que não se conflitaram (até o momento) e podem ser alteradas sem que ninguém atropele o código do outro no projeto, evitando conflitos e sempre mantendo tudo que é feito documentado dentro do repositório.
 
 ![imagem listando as branches](/images/branches2.png)
