@@ -24,6 +24,7 @@
 4.  [Merge](/3-comandos/merge.md)
 5.  [Status](/3-comandos/status.md)
 6.  [Diff](/3-comandos/diff.md)
+7.  [Tag](/3-comandos/tag.md)
 
 ### GitFlow
 
