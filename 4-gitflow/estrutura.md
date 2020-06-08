@@ -34,3 +34,5 @@ Podemos ver as branches em cascata, que sempre parte de uma tarefa e vai subindo
 - Tasks - branch relacioada a uma feature (estória) descrevendo sempre um objetivo a ser trabalhado
 
 Seguindo o projeto com esse fluxo, há maiores garantias que ninguém no time irá atropelar ou perder código em merges falhos onde haverão conflitos.
+
+Ir para: [4.3 Releases](releases.md)

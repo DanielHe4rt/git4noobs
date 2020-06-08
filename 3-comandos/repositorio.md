@@ -12,3 +12,5 @@ Initialized empty Git repository in ~/git4noobs/.git/
 ```
 
 Simples, não é mesmo?!
+
+Ir para: [3.2. Commit](commit.md)

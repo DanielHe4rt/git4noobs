@@ -32,6 +32,9 @@ git commit -m "alteração de index.html"
 ```
 
 ![x](/images/commit2.png)
+
 Após fazer a alteração, podemos ver que foi adicionado outro registro em nosso repositório, uma nova entrada na qual está marcada as alterações mais recentes e com os registros anteriores guardados e documentados igualmente.
 
 Um commit significa a adição/alteração/remoção de um ou mais arquivos dentro do seu repositório.
+
+Ir para: [3.4. Merge](merge.md)

@@ -1,6 +1,6 @@
 # Diff
 
-Passamos por todo esse processo de criar commits, entender branches e creio que tenha ficado bem claro que há um fluxo a ser seguido. Mas como vamos saber o que exatamente foi alterado nos arquivos?<br>
+Passamos por todo esse processo de criar commits e entender branches, creio que tenha ficado bem claro que há um fluxo a ser seguido. Mas como vamos saber o que exatamente foi alterado nos arquivos?<br>
 O comando **git diff nomearquivo.ext** consegue resolver esse problema e para entendermos melhor, iremos fazer algumas alterações no nosso projeto:
 
 - Altere o arquivo **main.css** adicionando e editando as linhas descritas abaixo;
@@ -44,3 +44,5 @@ Agora vamos para uma breve interpretação do retorno acima:
 - O sinal "-" significa tudo que foi REMOVIDO do document.
 
 Uma coisa interessante de saber é que se você adicionar o arquivo com o **"git add"** e tentar usar o **"git diff"** no mesmo arquivo, você não verá as alterações pois elas já estão prontas para serem commitadas.
+
+Ir para: [3.7. Tag](tag.md) 

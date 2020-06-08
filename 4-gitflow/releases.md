@@ -23,3 +23,5 @@ Release: 1.1.0 (Release)
 Release: 1.0.0 (Breaking Change)
 - Lançamento do sistema
 ```
+
+Ir para: [4.4 Exemplos de GitFlow](exemplos.md)

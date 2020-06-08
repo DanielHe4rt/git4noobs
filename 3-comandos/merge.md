@@ -17,3 +17,5 @@ Fast-forward
 ![imagem listando as branches](/images/merge1.png)
 
 Podemos ver que a master agora possui as funcionalidades da implementação-css sem precisar mexer em nada relacionado a ela, e em questão de organização você sabe onde e quando foi feito as alterações.
+
+Ir para: [5. Status](status.md)
