@@ -25,6 +25,7 @@
 5.  [Status](/3-comandos/status.md)
 6.  [Diff](/3-comandos/diff.md)
 7.  [Tag](/3-comandos/tag.md)
+8.  [Rebase](/3-comandos/rebase.md)
 
 ### GitFlow
 
