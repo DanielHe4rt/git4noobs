@@ -33,3 +33,5 @@ No exemplo abaixo iremos separar o back-end do front-end para entender como melh
 - Atualiza novos campos a API de login
 
 Em vez de fazer um único commit com vários arquivos indicando uma única task, você pode fazer algo mais elaborado pra conseguir identificar melhor o que foi está sendo feito.
+
+Ir para: [Conclusão](../conclusao.md)
