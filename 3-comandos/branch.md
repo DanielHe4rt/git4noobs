@@ -59,3 +59,5 @@ $ git commit -m "adicionando regras para o main.css"
 Podemos ver na imagem abaixo que há duas linhas de tempo diferentes que não se conflitaram (até o momento) e podem ser alteradas sem que ninguém atropele o código do outro no projeto, evitando conflitos e sempre mantendo tudo que é feito documentado dentro do repositório.
 
 ![imagem listando as branches](/images/branches2.png)
+
+Ir para [3.4. Merge](merge.md)

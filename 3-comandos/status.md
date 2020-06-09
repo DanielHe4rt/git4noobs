@@ -15,4 +15,4 @@ Arquivos não monitorados:
 
 Esse comando vai te dar uma visão geral de tudo que está acontecendo no repositório que vá afetar algo ou não no seu próximo commit.
 
-Ir para: [3.5. Diff](diff.md)
+Ir para: [3.6. Diff](diff.md)
