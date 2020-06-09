@@ -28,6 +28,18 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "Ryandgs",
+      "name": "Ryan Douglas",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43894463?v=4",
+      "profile": "https://github.com/Ryandgs",
+      "contributions": [
+        "code",
+        "maintenance",
+        "ideas",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
