@@ -16,6 +16,18 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "filipe-crespo",
+      "name": "Filipe Crespo",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/22672919?v=4",
+      "profile": "https://github.com/filipe-crespo",
+      "contributions": [
+        "code",
+        "maintenance",
+        "ideas",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
