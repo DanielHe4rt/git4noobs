@@ -1,4 +1,7 @@
 <h1 align="center">
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
   <img src="/images//git.svg" alt="Git" width="120px" />
 </h1>
 
@@ -42,3 +45,22 @@
 ## Autores
 
 - **Daniel Reis (danielhe4rt)** - _Back-end Developer && He4rt Developers Leader_ - [Portfólio](https://danielheart.dev) - [Twitter](https://twitter.com/danielhe4rt)
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://danielheart.dev"><img src="https://avatars3.githubusercontent.com/u/6912596?v=4" width="100px;" alt=""/><br /><sub><b>Daniel Reis</b></sub></a><br /><a href="https://github.com/DanielHe4rt/git4noobs/commits?author=DanielHe4rt" title="Code">💻</a> <a href="#maintenance-DanielHe4rt" title="Maintenance">🚧</a> <a href="#ideas-DanielHe4rt" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/DanielHe4rt/git4noobs/pulls?q=is%3Apr+reviewed-by%3ADanielHe4rt" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
