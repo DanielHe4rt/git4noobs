@@ -39,4 +39,4 @@ git tag -d v1.0.0
 
 Apaga a tag no seu git local.
 
-Ir para: [8. Rebase](rebase.md)
+Ir para: [3.8. Rebase](rebase.md)
