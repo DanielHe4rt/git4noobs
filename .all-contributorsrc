@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "DanielHe4rt",
+      "name": "Daniel Reis",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6912596?v=4",
+      "profile": "https://danielheart.dev",
+      "contributions": [
+        "code",
+        "maintenance",
+        "ideas",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "git4noobs",
+  "projectOwner": "DanielHe4rt",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
