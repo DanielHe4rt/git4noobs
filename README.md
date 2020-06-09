@@ -27,6 +27,7 @@
 6.  [Diff](/3-comandos/diff.md)
 7.  [Tag](/3-comandos/tag.md)
 8.  [Rebase](/3-comandos/rebase.md)
+9.  [Reset](/3-comandos/reset.md)
 
 ### GitFlow
 
