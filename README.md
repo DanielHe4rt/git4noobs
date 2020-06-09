@@ -53,6 +53,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://danielheart.dev"><img src="https://avatars3.githubusercontent.com/u/6912596?v=4" width="100px;" alt=""/><br /><sub><b>Daniel Reis</b></sub></a><br /><a href="https://github.com/DanielHe4rt/git4noobs/commits?author=DanielHe4rt" title="Code">💻</a> <a href="#maintenance-DanielHe4rt" title="Maintenance">🚧</a> <a href="#ideas-DanielHe4rt" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/DanielHe4rt/git4noobs/pulls?q=is%3Apr+reviewed-by%3ADanielHe4rt" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/filipe-crespo"><img src="https://avatars2.githubusercontent.com/u/22672919?v=4" width="100px;" alt=""/><br /><sub><b>Filipe Crespo</b></sub></a><br /><a href="https://github.com/DanielHe4rt/git4noobs/commits?author=filipe-crespo" title="Code">💻</a> <a href="#maintenance-filipe-crespo" title="Maintenance">🚧</a> <a href="#ideas-filipe-crespo" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/DanielHe4rt/git4noobs/pulls?q=is%3Apr+reviewed-by%3Afilipe-crespo" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
