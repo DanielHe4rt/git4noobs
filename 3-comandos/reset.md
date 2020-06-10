@@ -20,4 +20,4 @@ Com o `--soft` podemos voltar para uma hash de um commit mantendo os arquivos ed
 git reset --soft d60329e
 ```
 
-Ir para: [4.1 Gitflow -  O que é Git Flow](../4-gitflow/o-que-e-gitflow.md)
+Ir para: [3.10. Fetch](../3-comandos/fetch.md)
