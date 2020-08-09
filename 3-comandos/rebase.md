@@ -36,7 +36,7 @@ Commandos:
 * t, reset <label> = reseta o HEAD por um label
 * m, merge [-C <commit> | -c <commit>] <label> [# <oneline>] = Cria um merge commit usando as mensagens dos commits. Use a opção -c <commit> para reescrever a mensagem do commit.
 
-Para juntarmos os 2 commits em apenas 1, precisamos alterar o comando do segundo commit para o `squash` ou `fixup`, dependedo se quizer descartar ou não a mensagem do commit.
+Para juntarmos os 2 commits em apenas 1, precisamos alterar o comando do segundo commit para o `squash` ou `fixup`, dependedo se quiser descartar ou não a mensagem do commit.
 
 ```txt
 1 pick d93ec63 Add dockerfile and docker-compose.yml
@@ -64,20 +64,19 @@ Após salvar o comando será exibido outro arquivo contendo as mensagens dos com
 
 ## Mais comandos utlizados
 
-Após localizar um conflito que o git não conseguiu resolver precisamos editar os arquivos manualmente, escolhendo o codigo correto e apos aplicar as alterações utilizando o comando `git add .` só após esta operação podemos continuar com o rebase.
+Após localizar um conflito que o git não conseguiu resolver precisamos editar os arquivos manualmente, escolhendo o código correto e após aplicar as alterações utilizando o comando `git add .` só após esta operação podemos continuar com o rebase.
 
 ```bash
 git rebase --continue
 ```
 
-Quando estamos mesclando diversos commits podemos querer pular alguns conflitos para serem resolvidos futuramente, para isso utilzamos o `skip`. (usar com parcimônia)
+Quando estamos mesclando diversos commits podemos querer pular alguns conflitos para serem resolvidos futuramente, para isso utilizamos o `skip`. (usar com parcimônia)
 
 ```bash
 git rebase --skip
 ```
 
-Casa erremos durante o rebase podemos aborta-lo para não perder o código e comerçar novamente.
-comerçar
+Caso erremos durante o rebase podemos abortá-lo para não perder o código e começar novamente.
 
 ```bash
 git rebase --abort
