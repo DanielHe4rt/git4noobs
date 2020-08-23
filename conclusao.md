@@ -1,6 +1,6 @@
 # Conclusão
 
-Git de fato não é algo problemático de se trabalhar se você souber o que e quando usar. É de longe uma das melhores ferramentas de versionamento existeste nos dias de hoje e é FUNDAMENTAL para todos os desenvolvedores entenderem e refinarem o processo do GitFlow.
+Git de fato não é algo problemático de se trabalhar se você souber o que e quando usar. É de longe uma das melhores ferramentas de versionamento existente nos dias de hoje e é FUNDAMENTAL para todos os desenvolvedores entenderem e refinarem o processo do GitFlow.
 
 O exemplo do GitFlow dado anteriormente é apenas um de muitos existentes. Logo, você também pode chegar num consenso com sua equipe e criar o seu próprio. Afinal, reinventar a roda não me parece algo tão ruim, certo?!
 
