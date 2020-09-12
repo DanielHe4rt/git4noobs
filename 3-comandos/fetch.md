@@ -1,6 +1,6 @@
 # Fetch
 
-Com o comando `fetch` atualizamos nossa arvore de commits local para a arvore do nosso repositório. Baixando todas as branchs e todas as tags presentes para o nosso local podendo utiliza-las.
+Com o comando `fetch` atualizamos nossa árvore de commits local para a árvore do nosso repositório. Baixando todas as branchs e todas as tags presentes para o nosso local podendo utilizá-las.
 
 Podemos atualizar todo o projeto:
 
@@ -8,7 +8,7 @@ Podemos atualizar todo o projeto:
 git fetch --all
 ```
 
-Ou podemos especipar uma branch:
+Ou podemos especificar uma branch:
 
 ```bash
 git fetch origin master

@@ -1,6 +1,6 @@
 # Reset
 
-Com o camando reset podemos realizar alterações na árvore dos commits de uma branch, possibilitando a utilização dos arquivos ou o descarte total do que foi alterado.
+Com o comando reset podemos realizar alterações na árvore dos commits de uma branch, possibilitando a utilização dos arquivos ou o descarte total do que foi alterado.
 
 O reset recebe como parametro uma hash de commit ou um branch específica (origin ou local);
 

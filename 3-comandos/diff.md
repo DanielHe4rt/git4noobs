@@ -40,7 +40,7 @@ index 85d348e..2cfe522 100644
 Agora vamos para uma breve interpretação do retorno acima:
 
 - Ele está comparando com o último commit feito no mesmo arquivo;
-- O sinal "+" significa tudo que foi ADICIONDO ao documento;
+- O sinal "+" significa tudo que foi ADICIONADO ao documento;
 - O sinal "-" significa tudo que foi REMOVIDO do document.
 
 Uma coisa interessante de saber é que se você adicionar o arquivo com o **"git add"** e tentar usar o **"git diff"** no mesmo arquivo, você não verá as alterações pois elas já estão prontas para serem commitadas.
