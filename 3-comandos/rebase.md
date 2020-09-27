@@ -7,7 +7,7 @@ O mais comum do uso do rebase é para mesclarmos commit, agrupando alterações 
 ## Rebase Interativo
 
 ```bash
-git rebase -i HEAD~2 # o 2 representa o numero de commits que o camando ira busca para o rebase.
+git rebase -i HEAD~2 # o 2 representa o numero de commits que o comando irá buscar para o rebase.
 ```
 
 Após rodar este comando é apresentado em seu editor padrão do git, um arquivo para você editar os comandos, e executar a tarefa desejada.
