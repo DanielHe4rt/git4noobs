@@ -26,7 +26,7 @@ Commandos:
 
 * p, pick <commit> = usa o commit
 * r, reword <commit> = usa o commit, mas edita a mensagem do commit
-* e, edit <commit> = usa o commit, mas para para alterar
+* e, edit <commit> = usa o commit, mas para alterar
 * s, squash <commit> = usa o commit, mas junta com o commit anterior
 * f, fixup <commit> = igual ao commando "squash", mas discarta a mensagem do commit
 * x, exec <command> = run command (the rest of the line) using shell
