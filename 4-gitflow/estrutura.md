@@ -17,7 +17,7 @@ Master─────────────────────Hotfix
                    └───────Tasks
 ```
 
-Podemos ver as branches em cascata, que sempre parte de uma tarefa e vai subindo gradualmente até chegar na branch principal (master). Tá, mas o que quer dizer cada uma dessas branchs? Segue a função de cada branch abaixo:
+Podemos ver as branches em cascata, que sempre partem de uma tarefa e vão subindo gradualmente até chegarem na branch principal (master). Tá, mas o que quer dizer cada uma dessas branchs? Segue a função de cada branch abaixo:
 
 - Master - branch responsável pelo ambiente que roda em Produção
 
@@ -33,6 +33,6 @@ Podemos ver as branches em cascata, que sempre parte de uma tarefa e vai subindo
 
 - Tasks - branch relacionada a uma feature (estória) descrevendo sempre um objetivo a ser trabalhado
 
-Seguindo o projeto com esse fluxo, há maiores garantias que ninguém no time irá atropelar ou perder código em merges falhos onde haverão conflitos.
+Seguindo o projeto com esse fluxo, há maiores garantias de que ninguém no time irá atropelar ou perder código em merges falhos onde haverão conflitos.
 
 Ir para: [4.3 Releases](releases.md)
