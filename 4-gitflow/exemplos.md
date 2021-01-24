@@ -17,4 +17,4 @@ Temos as tarefas e funcionalidades acima listadas, agora vamos entender como ela
 
 ![imagem listando as branches](/images/gitflow-example1.png)
 
-Ir para: [4.5 Padrão de Commits](padrao-commit.md)
+Ir para: [4.5 Extensão git-flow](extensao-git-flow.md)
