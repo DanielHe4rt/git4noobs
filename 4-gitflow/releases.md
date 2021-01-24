@@ -1,6 +1,6 @@
 # Releases
 
-O que é uma release? Release é o compilado de alterações feitas no sistema onde é atribuido uma tag de versionamento. Quando aparecem os numeros "1.2.15" em softwares, geralmente cada um desses digitos quer te dizer algo.
+O que é uma release? Uma release é o compilado de alterações feitas no sistema onde é atribuido uma tag de versionamento. Quando aparecem os numeros "1.2.15" em softwares, geralmente cada um desses digitos quer te dizer algo.
 
 - O primeiro digito é para o breaking change release, mais conhecido como que altera toda estrutura do projeto.
 - O segundo digito será para releases de projeto (compilado de novas features)
