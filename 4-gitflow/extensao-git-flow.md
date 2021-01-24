@@ -1,5 +1,5 @@
 # Extensão git-flow
-Caso você, assim como eu, tem dificuldade de lidar com merges e branches diretamente pelos comandos nativos do git, saiba que existe uma extensão que foi feita para você. 
+Caso você, assim como eu, tenha dificuldade de lidar com merges e branches diretamente pelos comandos nativos do git, saiba que existe uma extensão que foi feita para você. 
 
 O [git-flow](https://github.com/nvie/gitflow) é um conjunto de extensões para o git no terminal, e funciona da seguinte forma:
 
