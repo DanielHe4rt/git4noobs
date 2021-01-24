@@ -61,3 +61,9 @@ $ sudo ./gitflow-installer.sh
 <h1 id="windows">Windows</h1>
 
 Para os usuários windows, o [Git for Windows](https://gitforwindows.org/) já inclui a extensão.
+
+Caso não queira utilizar o Git for Windows, o Cygwin faz isso por você:
+
+```
+$ wget -q -O - --no-check-certificate https://raw.github.com/petervanderdoes/gitflow-avh/develop/contrib/gitflow-installer.sh install stable | bash
+```
