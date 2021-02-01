@@ -1,6 +1,6 @@
 # Exemplos
 
-Com um exemplo prático iremos montar o Gitflow com as tarefas abaixo num ambiente que já existe algumas releases e todo ambiente já preparado. Seguem as tarefas desse projeto fictício:
+Como um exemplo prático, iremos montar o Gitflow com as tarefas abaixo num ambiente onde já existem algumas releases e todo ambiente já preparado. Seguem as tarefas desse projeto fictício:
 
 #### Funcionalidades e Tarefas
 
@@ -17,4 +17,4 @@ Temos as tarefas e funcionalidades acima listadas, agora vamos entender como ela
 
 ![imagem listando as branches](/images/gitflow-example1.png)
 
-Ir para: [4.5 Padrão de Commits](padrao-commit.md)
+Ir para: [4.5 Extensão git-flow](extensao-git-flow.md)
