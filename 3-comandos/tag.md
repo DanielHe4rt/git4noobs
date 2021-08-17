@@ -2,7 +2,7 @@
 
 Este comando é utilizado para criar as versões do seu projeto.
 
-O formato padão para uma tag é Vx.y.z, sendo:
+O formato padrão para uma tag é Vx.y.z, sendo:
 
 * v -> sigla para a palavra versão.
 * x -> chamada de **Major**. Representa a versão principal do projeto.
