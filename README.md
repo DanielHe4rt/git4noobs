@@ -20,15 +20,16 @@
 ### Comandos e Conceitos
 
 1.  [Repositório](/3-comandos/repositorio.md)
-2.  [Commit](/3-comandos/commit.md)
-3.  [Branch](/3-comandos/branch.md)
-4.  [Merge](/3-comandos/merge.md)
-5.  [Status](/3-comandos/status.md)
-6.  [Diff](/3-comandos/diff.md)
-7.  [Tag](/3-comandos/tag.md)
-8.  [Rebase](/3-comandos/rebase.md)
-9.  [Reset](/3-comandos/reset.md)
-10. [Fetch](/3-comandos/fetch.md)
+2.  [Config](/3-comandos/config.md)
+3.  [Commit](/3-comandos/commit.md)
+4.  [Branch](/3-comandos/branch.md)
+5.  [Merge](/3-comandos/merge.md)
+6.  [Status](/3-comandos/status.md)
+7.  [Diff](/3-comandos/diff.md)
+8.  [Tag](/3-comandos/tag.md)
+9.  [Rebase](/3-comandos/rebase.md)
+10.  [Reset](/3-comandos/reset.md)
+11. [Fetch](/3-comandos/fetch.md)
 
 ### GitFlow
 

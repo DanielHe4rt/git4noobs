@@ -37,4 +37,4 @@ Após fazer a alteração, podemos ver que foi adicionado outro registro em noss
 
 Um commit significa a adição/alteração/remoção de um ou mais arquivos dentro do seu repositório.
 
-Ir para: [3.3. Branch](branch.md)
+Ir para: [3.4. Branch](branch.md)

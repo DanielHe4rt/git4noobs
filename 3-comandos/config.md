@@ -16,3 +16,5 @@ Listando todas as configurações existentes:
 ```
 git config --list
 ```
+
+Ir para: [3.3. Commit](commit.md)

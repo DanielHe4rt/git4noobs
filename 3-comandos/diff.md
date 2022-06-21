@@ -45,4 +45,4 @@ Agora vamos para uma breve interpretação do retorno acima:
 
 Uma coisa interessante de saber é que se você adicionar o arquivo com o **"git add"** e tentar usar o **"git diff"** no mesmo arquivo, você não verá as alterações pois elas já estão prontas para serem commitadas.
 
-Ir para: [3.7. Tag](tag.md) 
+Ir para: [3.8. Tag](tag.md) 
