@@ -60,4 +60,4 @@ Podemos ver na imagem abaixo que há duas linhas de tempo diferentes que não se
 
 ![imagem listando as branches](/images/branches2.png)
 
-Ir para [3.4. Merge](merge.md)
+Ir para [3.5. Merge](merge.md)

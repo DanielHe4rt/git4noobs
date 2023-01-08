@@ -18,4 +18,4 @@ Fast-forward
 
 Podemos ver que a master agora possui as funcionalidades da implementação-css sem precisar mexer em nada relacionado a ela, e em questão de organização você sabe onde e quando foi feito as alterações.
 
-Ir para: [3.5. Status](status.md)
+Ir para: [3.6. Status](status.md)
