@@ -28,8 +28,10 @@
 7.  [Diff](/3-comandos/diff.md)
 8.  [Tag](/3-comandos/tag.md)
 9.  [Rebase](/3-comandos/rebase.md)
-10.  [Reset](/3-comandos/reset.md)
+10. [Reset](/3-comandos/reset.md)
 11. [Fetch](/3-comandos/fetch.md)
+12. [Log](/3-comandos/log.md)
+
 
 ### GitFlow
 
