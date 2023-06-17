@@ -6,7 +6,7 @@ aflito ou nervoso por não saber o que fazer nessa situação ou pode ter ficado
 um erro bobo por falta de atenção, onde você escreveu multipas alterações onde não devia, agora você 
 tem um problema, você precisa pegar todas as alterações que fez e colocar em uma nova branch.
 
-Se isso nunca ocorreu com você, pode ter certeza que é só uma questão de tempo ate ocorrer e caso ainda sim
+Se isso nunca ocorreu com você, pode ter certeza que é só uma questão de tempo ate isso ocorrer e caso ainda sim
 nunca aconteça com você, com algum colega ou amigo certamente vai acontecer, então é melhor ficarmos preparados 
 para lidarmos da melhor maneira possível.
 
