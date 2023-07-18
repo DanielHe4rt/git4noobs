@@ -2,29 +2,29 @@
 
 Acredito que você já passou pelo caso de sem querer fazer umas alterações no ramo principal do projeto 
 e depois notar o que estava trabalhando na branch principal, provavelmente no começo você pode ficar 
-aflito ou nervoso por não saber o que fazer nessa situação ou pode ter ficado chateado por ter cometido 
-um erro bobo por falta de atenção, onde você escreveu multipas alterações onde não devia, agora você 
+aflito ou nervoso por não saber o que fazer nessa situação, ou pode ter ficado chateado por ter cometido 
+um erro bobo por falta de atenção, onde você escreveu multipas alterações onde não devia. Agora você 
 tem um problema, você precisa pegar todas as alterações que fez e colocar em uma nova branch.
 
-Se isso nunca ocorreu com você, pode ter certeza que é só uma questão de tempo ate isso ocorrer e caso ainda sim
-nunca aconteça com você, com algum colega ou amigo certamente vai acontecer, então é melhor ficarmos preparados 
-para lidarmos da melhor maneira possível.
+Se isso nunca ocorreu com você, pode ter certeza que é só uma questão de tempo ate isso acontecer, e em caso raro de
+disso nunca acontecer com você, certamente um colega de trabalho ou amigo da faculdade vai fazer então, então para que
+possamos nós ajudar e ajudar nossos colegas e amigos, aprender nunca é demais.
 
 Para deixar claro, a partir de agora eu vou referenciar o ramo principal do projeto como main, 
-em alguns projetos ele vai variar de main para master, mas nunca muito diferente disso, no fim é o ramo principal, 
+em alguns projetos (como esse) ele vai variar de main para master, mas nunca muito diferente disso, no fim é o ramo principal, 
 saiba o porque da convenção mais apropriada ser main e não master [aqui](https://blog.curso-r.com/posts/2020-07-27-github-main-branch/).
 
 Partindo do pressuposto que você usa o VSCODE ou um software de desenvolvimento moderno e você 
-ainda não comitou nada, provavelmente o vscode (ou seu software preferido) vai te mostrar em um feedback 
+ainda não comitou nada, provavelmente o seu software preferido vai te mostrar em um feedback 
 visual de quais foram as linhas que você alterou, retirou ou adicionou no código, mas definitivamente 
 vai ser um saco copiar cada alteração para um bloco de notas da vida apenas para criar uma nova branch 
 e continuar o trabalho.
 
-Pior ainda se você já commitou e não lembra cada nuance sobre as alterações que fez, apenas comitou e 
-continuou programando normalmente. Agora você vai ter que ver a diferença de todos os commits anteriores,
+Pior ainda se você já fez multiplos commits e não lembra a exata coisa que fez em cada alteração que fez, apenas comitou e 
+continuou programando normalmente. Agora, teoricamente, você vai ter que ver a diferença de todos os commits anteriores,
 verificar suas alterações atuais e teoricamente copiar tudo manualmente para outro arquivo de para guardar as 
 alterações como um bloco de notas, resetar tudo novamente ate o commit que não tem nenhuma nova implementação 
-e SÓ ENTÃO criar uma nova branch e colar todas novas implementações manualmente, um processo bem incômodo.
+e SÓ ENTÃO criar uma nova branch e colar todas novas implementações manualmente, um processo bem ~~chato~~ incômodo.
 
 Felizmente o Git nos ajuda nesses tipo de problema, o comando `git stash` transforma esse processo 
 repetitivo e maçante de copia e cola em algo rápido e simples com poucos comandos.
@@ -127,7 +127,7 @@ Vamos testar na pratica ainda com a pasta que você criou:
 - Adicione uma tag `<h2>Hello World</h2>` no `index.html`
 - Execute o comando `git stash save tag_h2` para salvar o stash
   - O `tag_h2` tem como objetivo definir um nome para o stash, ele poderia ser qualquer nome e é um parametro opcional, 
-  é util quando você for procurá-lo na lista depois.
+  mas é muito util quando você for procurá-lo na lista depois.
 - Execute o comando `git stash list`
   - Agora você perceberá que existe um stash salvo na sua lista de stash, você pode aplicar ele quando quiser, os stashs
     ficam armazenados no repositório até serem deletados.
