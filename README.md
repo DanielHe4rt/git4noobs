@@ -31,6 +31,7 @@
 10. [Reset](/3-comandos/reset.md)
 11. [Fetch](/3-comandos/fetch.md)
 12. [Log](/3-comandos/log.md)
+13. [Stash](3-comandos/stash.md)
 
 
 ### GitFlow
