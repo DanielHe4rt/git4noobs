@@ -32,6 +32,7 @@
 11. [Fetch](/3-comandos/fetch.md)
 12. [Log](/3-comandos/log.md)
 13. [Stash](3-comandos/stash.md)
+14. [Cherry-pick](/3-comandos/cherry-pick.md)
 
 
 ### GitFlow
