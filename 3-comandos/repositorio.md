@@ -13,4 +13,4 @@ Initialized empty Git repository in ~/git4noobs/.git/
 
 Simples, não é mesmo?!
 
-Ir para: [3.2. Config](config.md)
+Ir para: [3.1.1. Clone](clone.md), uma forma alternativa de iniciar um repositório a partir de um projeto já existente, ou direto para [3.2. Config](config.md)

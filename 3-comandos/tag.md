@@ -11,23 +11,23 @@ O formato padrão para uma tag é Vx.y.z, sendo:
 
 ## Opções
 
-### Gerar tag non-annontated
+### Gerar tag lightweight (non-annotated)
 
 ```sh
 git tag v1.0.0
 ```
 
-Cria uma tag `non-annontated` **possui** referencia direta ao commmit que ela foi gerada.
+Cria uma tag `lightweight`, que é apenas um **ponteiro/referência direta** para o commit atual, sem nenhuma informação extra (sem autor, data ou mensagem própria).
 
 ---
 
 ### Gerar tag annotated
 
 ```sh
-git tag -a v1.0.0
+git tag -a v1.0.0 -m "Versão 1.0.0"
 ```
 
-Cria uma tag `annotated` **não possui** referencia direta ao commmit que ela foi gerada, possuindo uma mensagem propria.
+Cria uma tag `annotated`, que também aponta para o commit, mas é armazenada como um objeto completo no Git, guardando **mensagem própria, autor e data**. Por isso é a forma recomendada para marcar versões/releases.
 
 ---
 

@@ -3,23 +3,25 @@
 Simplificado: _Universo Paralelo_ <br><br>
 Podemos dizer que a branch é um universo ou uma realidade alternativa onde em algum ponto irá se juntar com a realidade principal. Achou esse exemplo estranho? Então deixa eu te mostrar uns exemplos.<br><br>
 Pense em um cenário onde seu time encontra um problema que precisa ser resolvido, porém nem sempre há apenas uma única solução para finalizar essa tarefa, certo? É ai que a branch entra para ajudar nessa organização entre os devs.<br>
-Continuando nesse cenário hipotético, os desenvolvedores irão criar uma nova vertente do código partindo da branch **master** (branch principal gerada a partir do primeiro commit), assim criando a branch implementacao-css.
+Continuando nesse cenário hipotético, os desenvolvedores irão criar uma nova vertente do código partindo da branch **main** (branch principal gerada a partir do primeiro commit; em projetos mais antigos você pode encontrar o nome **master** com o mesmo papel), assim criando a branch implementacao-css.
 
 A tarefa hipotética é: implementar uma regra CSS especifica na nossa index.html.
 
-Porém, antes precisamos criar uma nova branch e para isso iremos usar o comando **git checkout** com o primeiro argumento **-b (branch)** e o segundo sendo o nome da nova branch.
+Porém, antes precisamos criar uma nova branch e para isso iremos usar o comando **git switch** com a flag **-c (create)** seguida do nome da nova branch.
 
 ```
-$ git checkout -b implementacao-css
+$ git switch -c implementacao-css
 Switched to a new branch 'implementacao-css'
 $ git branch
-  master
+  main
 * implementacao-css
 ```
 
+> Em versões mais antigas do Git (ou em tutoriais antigos) você verá o comando equivalente `git checkout -b implementacao-css`. Ele funciona da mesma forma, mas `git switch` foi criado para deixar mais claro que a intenção é apenas trocar de branch (o `checkout` acumula muitas outras funções e pode confundir quem está começando).
+
 ![x](/images/branches1.png)
 
-Podemos ver que agora estamos em um outro universo diferente do principal (master) e toda e qualquer alteração feita nessa nova branch não afetará nenhuma outra dentro do projeto.<br><br>
+Podemos ver que agora estamos em um outro universo diferente do principal (main) e toda e qualquer alteração feita nessa nova branch não afetará nenhuma outra dentro do projeto.<br><br>
 Tá, mas o que eu faço com essa branch? A ideia é você ter liberdade para criar coisas novas sem alterar onde está tudo funcionando (master).<br>
 Vamos fazer algumas alterações no nosso projeto dentro dessa nova branch:
 

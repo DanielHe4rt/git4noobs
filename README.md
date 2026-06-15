@@ -20,19 +20,24 @@
 ### Comandos e Conceitos
 
 1.  [Repositório](/3-comandos/repositorio.md)
-2.  [Config](/3-comandos/config.md)
-3.  [Commit](/3-comandos/commit.md)
-4.  [Branch](/3-comandos/branch.md)
-5.  [Merge](/3-comandos/merge.md)
-6.  [Status](/3-comandos/status.md)
-7.  [Diff](/3-comandos/diff.md)
-8.  [Tag](/3-comandos/tag.md)
-9.  [Rebase](/3-comandos/rebase.md)
-10. [Reset](/3-comandos/reset.md)
-11. [Fetch](/3-comandos/fetch.md)
-12. [Log](/3-comandos/log.md)
-13. [Stash](3-comandos/stash.md)
-14. [Cherry-pick](/3-comandos/cherry-pick.md)
+2.  [Clone](/3-comandos/clone.md)
+3.  [Config](/3-comandos/config.md)
+4.  [.gitignore](/3-comandos/gitignore.md)
+5.  [Commit](/3-comandos/commit.md)
+6.  [Branch](/3-comandos/branch.md)
+7.  [Merge](/3-comandos/merge.md)
+8.  [Status](/3-comandos/status.md)
+9.  [Diff](/3-comandos/diff.md)
+10. [Tag](/3-comandos/tag.md)
+11. [Rebase](/3-comandos/rebase.md)
+12. [Reset](/3-comandos/reset.md)
+13. [Remote](/3-comandos/remote.md)
+14. [Push](/3-comandos/push.md)
+15. [Pull](/3-comandos/pull.md)
+16. [Fetch](/3-comandos/fetch.md)
+17. [Log](/3-comandos/log.md)
+18. [Stash](3-comandos/stash.md)
+19. [Cherry-pick](/3-comandos/cherry-pick.md)
 
 
 ### GitFlow
@@ -42,6 +47,13 @@
 3. [Releases](/4-gitflow/releases.md)
 4. [Exemplos de GitFlow](/4-gitflow/exemplos.md)
 5. [Padrão de Commits](/4-gitflow/padrao-commit.md)
+
+### GitHub
+
+1. [O que é o GitHub?](/5-github/o-que-e-github.md)
+2. [Fork e Pull Request](/5-github/fork-e-pull-request.md)
+3. [Resolvendo conflitos](/5-github/resolvendo-conflitos.md)
+4. [Code Review](/5-github/code-review.md)
 
 ### Conclusão
 

@@ -34,4 +34,4 @@ No exemplo abaixo iremos separar o back-end do front-end para entender como melh
 
 Em vez de fazer um único commit com vários arquivos indicando uma única task, você pode fazer algo mais elaborado pra conseguir identificar melhor o que foi está sendo feito.
 
-Ir para: [Conclusão](../conclusao.md)
+Ir para: [5.1 GitHub - O que é o GitHub?](../5-github/o-que-e-github.md)
