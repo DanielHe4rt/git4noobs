@@ -4,7 +4,7 @@ Um comando simples para saber qual branch você se encontra, quais arquivos fora
 
 ```
 $ git status
-No ramo master
+No ramo main
 Mudanças a serem submetidas:
   (use "git reset HEAD <file>..." to unstage)
 	modified:   main.css
